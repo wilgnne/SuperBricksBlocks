@@ -38,8 +38,7 @@ colors = {'1': (0,191,255),
 		  '4': (255,165,0),
 		  '5': (147,112,219)}
 
-#try:
-if 1 == 1:
+try:
     menu.loadLibrary()
     while 1:
         i = time.time()
@@ -82,6 +81,6 @@ if 1 == 1:
         f = time.time()
         deltatime = f-i
 
-#except Exception as e:
-#    print(e)
-#    enginne.errorShow()
+except Exception as e:
+    print(e)
+    enginne.errorShow()
