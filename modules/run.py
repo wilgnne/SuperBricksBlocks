@@ -1,0 +1,1 @@
+import games.Infinity.game as game
